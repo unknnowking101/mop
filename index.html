@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload and Access</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>File Upload and Access</h1>
+    <input type="file" id="fileInput" accept=".mp3, .mp4">
+    <button id="uploadButton">Upload File</button>
+    <div id="fileList">
+        <h2>Uploaded Files:</h2>
+        <ul id="files"></ul>
+    </div>
+    <div id="player" style="display:none;">
+        <audio id="audioPlayer" controls></audio>
+        <video id="videoPlayer" controls></video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

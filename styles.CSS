@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+#fileInput {
+    display: none;
+}
+
+#uploadButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#fileList {
+    text-align: left;
+}
+
+#player {
+    margin-top: 20px;
+}
